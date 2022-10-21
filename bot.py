@@ -25,7 +25,7 @@ trainer = ChatterBotCorpusTrainer(chatbot)
 
 # Train the chatbot based on the english corpus
 for i in range(5):
-    trainer.train("chatterbot.corpus.english")
+    trainer.train("chatterbot.corpus.french")
 
 trainer = ListTrainer(chatbot)
 threads = []
